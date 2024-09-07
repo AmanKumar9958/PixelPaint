@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #e0f7fa, #b9d2e4); /* Gradient background */
+}
+
+.popup {
+    width: 90%;
+    max-width: 320px;
+    background: #ffffff; /* White background for the popup */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.popup .picker {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background: #f0f4f8; /* Light background for picker section */
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+}
+
+#color-picker {
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #5372f0, #6a8cff); /* Gradient button */
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+#color-picker:hover {
+    background: linear-gradient(45deg, #6a8cff, #5372f0); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.picked-color header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f9f9f9; /* Light background for header */
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+    font-size: 1rem;
+}
+
+.hide-picked-colors {
+    display: none;
+}
+
+.clear-all {
+    font-weight: bold;
+    color: #007bff; /* Blue color for "Clear All" */
+    cursor: pointer;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.clear-all:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.all-colors {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: #ffffff; /* White background for color list */
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.2s; /* Smooth transition */
+}
+
+.color:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.value {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.rect {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Light border for better visibility */
+    transition: border 0.2s; /* Smooth border transition */
+}
+
+.color:hover .rect {
+    border: 2px solid #000; /* Darker border on hover */
+}
+
+.all-colors li {
+    cursor: pointer;
+}
