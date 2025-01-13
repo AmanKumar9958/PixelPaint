@@ -7,7 +7,7 @@ A handy Chrome extension that allows users to pick colors from any webpage. With
 - Clear the color history when needed.  
 
 ## 🌐 Live Demo  
-*(Add a link to your extension's live demo or Chrome Web Store listing once available.)*  
+*https://amankumar9958.github.io/PixelPaint/*  
 
 ## 🛠️ Features  
 - **Color Picker**: Select colors from any webpage with ease.  
