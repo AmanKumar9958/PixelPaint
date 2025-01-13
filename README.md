@@ -34,18 +34,11 @@ A handy Chrome extension that allows users to pick colors from any webpage. With
 4. Click on **Load unpacked** and select the project folder.  
 5. The extension will now appear in your browser’s extensions bar.  
 
-## 📷 Screenshot  
-![Color Picker Extension Screenshot](link-to-screenshot)  
-*(Replace `link-to-screenshot` with an image link or path showing your extension.)*  
-
 ## 🤝 Contributing  
 Contributions are welcome!  
-1. Fork the repository.  
+1. Fork the repository. 
 2. Create a new branch for your feature or bug fix.  
-3. Commit your changes and submit a pull request.  
-
-## 📜 License  
-This project is licensed under the [MIT License](LICENSE).  
-
+3. Commit your changes and submit a pull request.
+   
 ---  
 ⭐ **If you find this extension useful, don't forget to star the repository and share it with others!**  
