@@ -16,11 +16,10 @@ A handy Chrome extension that allows users to pick colors from any webpage. With
 - **Clear History**: Option to clear the history of picked colors.  
 
 ## 🚀 How to Use  
-1. Install the extension (link will be provided when hosted).  
-2. Click on the extension icon in your browser.  
-3. Use the color picker tool to select a color from the webpage.  
-4. Copy the HEX code from the extension interface.  
-5. View your color history or clear it as needed.  
+1. Open the provided webpage link to use.    
+2. Use the color picker tool to select a color from the webpage.  
+3. Copy the HEX code from the extension interface.  
+4. View your color history or clear it as needed.  
 
 ## 🔧 Technologies Used  
 - **HTML**: For the extension popup interface.  
